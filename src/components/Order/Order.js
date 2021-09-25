@@ -1,4 +1,5 @@
 import React from 'react';
+import OrderList from '../OrderList/OrderList';
 import './Order.css';
 
 const Order = (props) => {
@@ -7,11 +8,12 @@ const Order = (props) => {
     return (
         <div className="order-details">
             <h3>Order summary {orders.length}</h3>
-            <ul>
+            <div>
                 {
-                    orders.map(order => <li>{order.strMeal}</li>)
+                    orders.map(order => <OrderList order={order}></OrderList>)
                 }
-            </ul>
+            </div>
+
         </div>
     );
 };

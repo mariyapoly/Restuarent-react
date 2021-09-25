@@ -1,0 +1,33 @@
+.order-items {
+    margin-top: 30px;
+    
+}
+.order-item-thumb img {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.order-item-thumb {
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    background: #DDDDDD;
+    text-align: center;
+    line-height: 94px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.order-item-des p {
+    margin: 0;
+}
+.meal-name {
+    font-weight: 500;
+    color: #101010;
+}
