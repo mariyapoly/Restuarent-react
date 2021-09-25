@@ -1,6 +1,5 @@
 Mariya Restuarent
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+project link (https://mariya-restuarent.netlify.app/)
 
 
