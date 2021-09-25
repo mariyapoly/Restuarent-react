@@ -1,0 +1,86 @@
+
+.single-meal {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    margin: 55px 0;
+    align-items: center;
+}
+
+.meal-thum {
+    background-color: #DDDDDD;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 145px;
+}
+.meal-thum img {
+    width: 120px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.meal-recepies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.meal-des-top {
+    margin-bottom: 10px;
+}
+.meal-des-top p {
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #ca3d26;
+    margin-right: 50px;
+}
+.meal-des-top h4 {
+    font-size: 18px;
+    color: #1e1e1f;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.meal-recepies-title {
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #1e1e1fb6;
+}
+.meal-recepies {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.meal-recepies li {
+    margin-left: 15px;
+    position: relative;
+    color: #1e1e1fb6;
+}
+.meal-recepies li::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: -15px;
+    width: 5px;
+    height: 1px;
+    background-color: #1e1e1f;
+}
+.oder-btn {
+    background-color: #ca3d26;
+    border: 0;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-top: 15px;
+}
